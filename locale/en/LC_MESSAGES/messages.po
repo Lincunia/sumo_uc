@@ -1,0 +1,479 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 23:00-0500\n"
+"PO-Revision-Date: 2026-11-11 21:12-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/gui.py:86
+msgid "Simulation name:"
+msgstr "Simulation name:"
+
+#: src/gui.py:98
+msgid "Number maximum of steps:"
+msgstr "Number maximum of steps:"
+
+#: src/gui.py:110
+msgid "Interval steps (seconds):"
+msgstr "Interval steps (seconds):"
+
+#: src/gui.py:126
+msgid "Use sumo-gui"
+msgstr "Use sumo-gui"
+
+#: src/gui.py:138
+msgid "Display charts after finishing"
+msgstr "Display charts after finishing"
+
+#: src/gui.py:151
+msgid "Analize automatically after Web Wizard"
+msgstr "Analize automatically after Web Wizard"
+
+#: src/gui.py:159
+msgid "Language:"
+msgstr "Language:"
+
+#: src/gui.py:188
+msgid "Create with OSM Web Wizard"
+msgstr "Create with OSM Web Wizard"
+
+#: src/gui.py:199
+msgid "Analize map (.net)"
+msgstr "Analize map (.net)"
+
+#: src/gui.py:210
+msgid "Select results file"
+msgstr "Select results file"
+
+#: src/gui.py:221
+msgid "Start simulation"
+msgstr "Start simulation"
+
+#: src/gui.py:232
+msgid "Compare results"
+msgstr "Compare results"
+
+#: src/gui.py:243
+msgid ""
+"Evaluate traffic and\n"
+"crosses (last results)"
+msgstr ""
+"Evaluate traffic and\n"
+"crosses (last results)"
+
+#: src/gui.py:291
+#, python-brace-format
+msgid "=== LANGUAGE CHANGED TO {lang} ==="
+msgstr "=== LANGUAGE CHANGED TO {lang} ==="
+
+#: src/misc.py:60
+#, python-brace-format
+msgid ""
+"Increase capacity at {edge_id} (ex. additional lane or alternative roads)"
+msgstr ""
+"Increase capacity at {edge_id} (ex. additional lane or alternative roads)"
+
+#: src/misc.py:67
+#, python-brace-format
+msgid "Check time signal at edges close to {edge_id}"
+msgstr "Check time signal at edges close to {edge_id}"
+
+#: src/misc.py:73
+#, python-brace-format
+msgid "Analize blockage/obstacles at {edge_id} and alternative roads"
+msgstr "Analize blockage/obstacles at {edge_id} and alternative roads"
+
+#: src/misc.py:79
+#, python-brace-format
+msgid "Monitor {edge_id}, possible adjustment of traffic lights"
+msgstr "Monitor {edge_id}, possible adjustment of traffic lights"
+
+#: src/misc.py:92
+#, python-brace-format
+msgid "Slow (congestion) - {kmh:.1f} km/h"
+msgstr "Slow (congestion) - {kmh:.1f} km/h"
+
+#: src/misc.py:95
+#, python-brace-format
+msgid "Normal - {kmh:.1f} km/h"
+msgstr "Normal - {kmh:.1f} km/h"
+
+#: src/misc.py:96
+#, python-brace-format
+msgid "Fast - {kmh:.1f} km/h"
+msgstr "Fast - {kmh:.1f} km/h"
+
+#: src/misc.py:115
+msgid "Not prepared (high risk)"
+msgstr "Not prepared (high risk)"
+
+#: src/misc.py:117
+msgid "At the limit (possible saturation)"
+msgstr "At the limit (possible saturation)"
+
+#: src/misc.py:118
+msgid "Ready"
+msgstr "Ready"
+
+#: src/sim.py:135
+#, python-brace-format
+msgid ""
+"Tendency (lineal regresion) vehicles per step: slope={slope:.4f}vehicles/"
+"step, intercept={intercept}"
+msgstr ""
+"Tendency (lineal regresion) vehicles per step: slope={slope:.4f}vehicles/"
+"step, intercept={intercept}"
+
+#: src/sim.py:150
+msgid "Prediction for the next 10 steps (active steps):"
+msgstr "Prediction for the next 10 steps (active steps):"
+
+#: src/sim.py:176
+#, python-brace-format
+msgid "CSV edges enriched saved at: {csv_epe}"
+msgstr "CSV edges enriched saved at: {csv_epe}"
+
+#: src/sim.py:190
+#, python-brace-format
+msgid "JSON edges saved at: {json_path}"
+msgstr "JSON edges saved at: {json_path}"
+
+#: src/sim.py:197
+#, python-brace-format
+msgid ""
+"{lang}: - SIMULATION SUMARY\n"
+"FINAL ANALISIS\n"
+"Executed steps: {len_lds}\n"
+"Average vehicles (per step): {mean_lds_vehicles:.2f}\n"
+"Mean speed (m/s): {mean_lds_speed:.2f}\n"
+"Top edges per congestion_score:\n"
+"\n"
+msgstr ""
+
+#: src/sim.py:240
+msgid "Recomendations (heuristics):"
+msgstr "Recomendations (heuristics):"
+
+#: src/sim.py:246
+msgid "Automatic tips were not generated"
+msgstr "Automatic tips were not generated"
+
+#: src/sim.py:252
+msgid ""
+"\n"
+"=== POST-SIMULATION ANALISIS ==="
+msgstr ""
+"\n"
+"=== POST-SIMULATION ANALISIS ==="
+
+#: src/sim.py:278
+#, python-brace-format
+msgid ""
+"Vehicles with final register: {n_veh_final}\n"
+"Mean wait: {mean_wait:.2f}s |Median wait: {median_wait:.2f}s |Standard wait: "
+"{std_wait:.2f} |90pct: {pct90_wait:.2f}s"
+msgstr ""
+"Vehicles with final register: {n_veh_final}\n"
+"Mean wait: {mean_wait:.2f}s |Median wait: {median_wait:.2f}s |Standard wait: "
+"{std_wait:.2f} |90pct: {pct90_wait:.2f}s"
+
+#: src/sim.py:294
+msgid "Top 10 edges per congestion_score:"
+msgstr "Top 10 edges per congestion_score:"
+
+#: src/sim.py:313
+msgid "Generating heatmap and exporting PNG/CSV/JSON..."
+msgstr "Generating heatmap and exporting PNG/CSV/JSON..."
+
+#: src/sim.py:359
+msgid "Invalid netfile coordinates to generate the heatmap."
+msgstr "Invalid netfile coordinates to generate the heatmap."
+
+#: src/sim.py:379
+#, python-brace-format
+msgid "({lan}) Relative level of load (normalized)"
+msgstr "({lan}) Relative level of load (normalized)"
+
+#: src/sim.py:383
+msgid "Load heatmap (center of edges)"
+msgstr "Load heatmap (center of edges)"
+
+#: src/sim.py:386
+msgid "X network coordinates"
+msgstr "X network coordinates"
+
+#: src/sim.py:389
+msgid "Y network coordinates"
+msgstr "Y network coordinates"
+
+#: src/sim.py:395
+#, python-brace-format
+msgid "Heatmap saved at: {heatmap_png_path}"
+msgstr "Heatmap saved at: {heatmap_png_path}"
+
+#: src/sim.py:465
+#, python-brace-format
+msgid ""
+"Progress: step {step}/{steps_amnt} - Vehicles: {n} - Average speed: "
+"{v_prom:.2f} m/s"
+msgstr ""
+"Progress: step {step}/{steps_amnt} - Vehicles: {n} - Average speed: "
+"{v_prom:.2f} m/s"
+
+#: src/sim.py:486
+#, python-brace-format
+msgid ""
+"Traffic lights detected in the network: {len_tls_info} (ex: {tls_detected})"
+msgstr ""
+"Traffic lights detected in the network: {len_tls_info} (ex: {tls_detected})"
+
+#: src/sim.py:496
+msgid ""
+"No traffic lights detected in the network, or netfile does not contain "
+"accesible TLS"
+msgstr ""
+"No traffic lights detected in the network, or netfile does not contain "
+"accesible TLS"
+
+#: src/sim.py:519
+#, python-brace-format
+msgid "{sumo_binary} is not properly installed"
+msgstr "{sumo_binary} is not properly installed"
+
+#: src/sim.py:568
+#, python-brace-format
+msgid "Start SUMO ({sumo_binary}) with {src_path}"
+msgstr "Start SUMO ({sumo_binary}) with {src_path}"
+
+#: src/sim.py:604
+msgid "Analysis finished."
+msgstr "Analysis finished."
+
+#: src/tmethods.py:60 src/tmethods.py:368 src/tmethods.py:472
+#: src/tmethods.py:480 src/tmethods.py:529
+msgid "Error"
+msgstr "Error"
+
+#: src/tmethods.py:61
+#, python-brace-format
+msgid "Not found {wizard_path}"
+msgstr "Not found {wizard_path}"
+
+#: src/tmethods.py:70
+msgid "Info"
+msgstr "Info"
+
+#: src/tmethods.py:71
+msgid "OSM Web Wizard is already open"
+msgstr "OSM Web Wizard is already open"
+
+#: src/tmethods.py:93
+#, python-brace-format
+msgid "OSM Web Wizard open. The maps will be saved at: {maps_dir}"
+msgstr "OSM Web Wizard open. The maps will be saved at: {maps_dir}"
+
+#: src/tmethods.py:98
+msgid "Press \"Generate Scenario\" in the wizard to create the map"
+msgstr "Press \"Generate Scenario\" in the wizard to create the map"
+
+#: src/tmethods.py:122
+msgid ""
+"WARNING: Couldn't connect with Overpass (OSM);the wizard might fail while "
+"downloading data"
+msgstr ""
+"WARNING: Couldn't connect with Overpass (OSM);the wizard might fail while "
+"downloading data"
+
+#: src/tmethods.py:131
+#, python-brace-format
+msgid "[wizard] {linestr}"
+msgstr "[wizard] {linestr}"
+
+#: src/tmethods.py:144
+#, python-brace-format
+msgid "The wizard ended (code {code}) without generating any .sumocfg"
+msgstr "The wizard ended (code {code}) without generating any .sumocfg"
+
+#: src/tmethods.py:154
+#, python-brace-format
+msgid "Map generated: {cfg}"
+msgstr "Map generated: {cfg}"
+
+#: src/tmethods.py:173
+msgid "Choose only one simluation file"
+msgstr "Choose only one simluation file"
+
+#: src/tmethods.py:196 src/tmethods.py:200 src/tmethods.py:348
+msgid "Active vehicles"
+msgstr "Active vehicles"
+
+#: src/tmethods.py:199 src/tmethods.py:355 src/tmethods.py:396
+msgid "Step"
+msgstr "Step"
+
+#: src/tmethods.py:206
+msgid "Average wait (s)"
+msgstr "Average wait (s)"
+
+#: src/tmethods.py:211
+msgid "Mean wait (s)"
+msgstr "Mean wait (s)"
+
+#: src/tmethods.py:214
+#, python-brace-format
+msgid "Evolution Vehieles vs wait - {sim_name}"
+msgstr "Evolution Vehieles vs wait - {sim_name}"
+
+#: src/tmethods.py:228
+msgid "Time of wait distribution per vehicle (final)"
+msgstr "Time of wait distribution per vehicle (final)"
+
+#: src/tmethods.py:231
+msgid "Time wait (s)"
+msgstr "Time wait (s)"
+
+#: src/tmethods.py:232
+msgid "Amount of vehicles"
+msgstr "Amount of vehicles"
+
+#: src/tmethods.py:246
+msgid "Top 10 edges per congestion_score"
+msgstr "Top 10 edges per congestion_score"
+
+#: src/tmethods.py:249
+msgid "congestion_score"
+msgstr "congestion_score"
+
+#: src/tmethods.py:261
+#, python-brace-format
+msgid "Starting .sumocfg analysis: {src_path}"
+msgstr "Starting .sumocfg analysis: {src_path}"
+
+#: src/tmethods.py:291
+#, python-brace-format
+msgid "Map analysis finished. CSV edges: {csv_edges}"
+msgstr "Map analysis finished. CSV edges: {csv_edges}"
+
+#: src/tmethods.py:298
+msgid "Top 10 edges per length"
+msgstr "Top 10 edges per length"
+
+#: src/tmethods.py:299
+msgid "Length (m)"
+msgstr "Length (m)"
+
+#: src/tmethods.py:342 src/tmethods.py:397
+msgid "Average speed (m/s)"
+msgstr "Average speed (m/s)"
+
+#: src/tmethods.py:351
+#, python-brace-format
+msgid "Simulation loaded: {base}"
+msgstr "Simulation loaded: {base}"
+
+#: src/tmethods.py:370
+msgid "Select at least two CSV files to compare"
+msgstr "Select at least two CSV files to compare"
+
+#: src/tmethods.py:385 src/tmethods.py:409
+msgid "Warning"
+msgstr "Warning"
+
+#: src/tmethods.py:387
+#, python-brace-format
+msgid "{file} file does't contain the columns(Step/Average_speed)"
+msgstr "{file} file does't contain the columns(Step/Average_speed)"
+
+#: src/tmethods.py:393
+msgid "Comparison between simulations (Average speed)"
+msgstr "Comparison between simulations (Average speed)"
+
+#: src/tmethods.py:411
+msgid "No previous results loaded. Run simulation first."
+msgstr "No previous results loaded. Run simulation first."
+
+#: src/tmethods.py:420
+#, python-brace-format
+msgid ""
+"\n"
+"Evaluation (Last results):\n"
+"Traffic classificatoin: {traffic_class}\n"
+"Total steps: {len_lds}\n"
+"Top 5 problematic edges:\n"
+msgstr ""
+"\n"
+"Evaluation (Last results):\n"
+"Traffic classificatoin: {traffic_class}\n"
+"Total steps: {len_lds}\n"
+"Top 5 problematic edges:\n"
+
+#: src/tmethods.py:462
+msgid "Varibles captured:"
+msgstr "Varibles captured:"
+
+#: src/tmethods.py:473
+msgid "No .sumocfg file selected"
+msgstr "No .sumocfg file selected"
+
+#: src/tmethods.py:481
+msgid "No simulation name set"
+msgstr "No simulation name set"
+
+#: src/tmethods.py:491
+msgid "Files defined:"
+msgstr "Files defined:"
+
+#: src/tmethods.py:502
+msgid "Select a File"
+msgstr "Select a File"
+
+#: src/tmethods.py:505
+msgid "Files selected:"
+msgstr "Files selected:"
+
+#: src/tmethods.py:512
+msgid "Save as"
+msgstr "Save as"
+
+#: src/tmethods.py:523
+#, python-brace-format
+msgid "{file_path} saved"
+msgstr "{file_path} saved"
+
+#: src/tmethods.py:530
+#, python-brace-format
+msgid "Error saving file: {ex}"
+msgstr "Error saving file: {ex}"
+
+#: src/tmethods.py:542
+#, fuzzy, python-brace-format
+#| msgid ""
+#| "\n"
+#| "---- TRACEBACK ----\n"
+#| "{tr}\n"
+#| "---- EXCEPTION ----\n"
+#| "{ex}"
+msgid ""
+"\n"
+"---- TRACEBACK ----\n"
+"{tr}\n"
+"---- EXCEPTION ----\n"
+"{ex_str}"
+msgstr ""
+"\n"
+"---- TRACEBACK ----\n"
+"{tr}\n"
+"---- EXCEPTION ----\n"
+"{ex}"

@@ -1,0 +1,15 @@
+# Python stuff
+env/
+__pycache__/
+
+# Build
+build/
+dist/
+
+# locale
+*.mo
+
+# Special directories
+results/
+saved_maps/
+[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-[0-9][0-9]-[0-9][0-9]-[0-9][0-9]

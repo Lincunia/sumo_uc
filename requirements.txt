@@ -1,0 +1,6 @@
+sumolib
+traci
+pandas
+matplotlib
+scikit-learn
+pyinstaller

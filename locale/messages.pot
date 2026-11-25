@@ -1,0 +1,446 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 23:00-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gui.py:86
+msgid "Simulation name:"
+msgstr ""
+
+#: src/gui.py:98
+msgid "Number maximum of steps:"
+msgstr ""
+
+#: src/gui.py:110
+msgid "Interval steps (seconds):"
+msgstr ""
+
+#: src/gui.py:126
+msgid "Use sumo-gui"
+msgstr ""
+
+#: src/gui.py:138
+msgid "Display charts after finishing"
+msgstr ""
+
+#: src/gui.py:151
+msgid "Analize automatically after Web Wizard"
+msgstr ""
+
+#: src/gui.py:159
+msgid "Language:"
+msgstr ""
+
+#: src/gui.py:188
+msgid "Create with OSM Web Wizard"
+msgstr ""
+
+#: src/gui.py:199
+msgid "Analize map (.net)"
+msgstr ""
+
+#: src/gui.py:210
+msgid "Select results file"
+msgstr ""
+
+#: src/gui.py:221
+msgid "Start simulation"
+msgstr ""
+
+#: src/gui.py:232
+msgid "Compare results"
+msgstr ""
+
+#: src/gui.py:243
+msgid ""
+"Evaluate traffic and\n"
+"crosses (last results)"
+msgstr ""
+
+#: src/gui.py:291
+#, python-brace-format
+msgid "=== LANGUAGE CHANGED TO {lang} ==="
+msgstr ""
+
+#: src/misc.py:60
+#, python-brace-format
+msgid ""
+"Increase capacity at {edge_id} (ex. additional lane or alternative roads)"
+msgstr ""
+
+#: src/misc.py:67
+#, python-brace-format
+msgid "Check time signal at edges close to {edge_id}"
+msgstr ""
+
+#: src/misc.py:73
+#, python-brace-format
+msgid "Analize blockage/obstacles at {edge_id} and alternative roads"
+msgstr ""
+
+#: src/misc.py:79
+#, python-brace-format
+msgid "Monitor {edge_id}, possible adjustment of traffic lights"
+msgstr ""
+
+#: src/misc.py:92
+#, python-brace-format
+msgid "Slow (congestion) - {kmh:.1f} km/h"
+msgstr ""
+
+#: src/misc.py:95
+#, python-brace-format
+msgid "Normal - {kmh:.1f} km/h"
+msgstr ""
+
+#: src/misc.py:96
+#, python-brace-format
+msgid "Fast - {kmh:.1f} km/h"
+msgstr ""
+
+#: src/misc.py:115
+msgid "Not prepared (high risk)"
+msgstr ""
+
+#: src/misc.py:117
+msgid "At the limit (possible saturation)"
+msgstr ""
+
+#: src/misc.py:118
+msgid "Ready"
+msgstr ""
+
+#: src/sim.py:135
+#, python-brace-format
+msgid ""
+"Tendency (lineal regresion) vehicles per step: slope={slope:.4f}vehicles/"
+"step, intercept={intercept}"
+msgstr ""
+
+#: src/sim.py:150
+msgid "Prediction for the next 10 steps (active steps):"
+msgstr ""
+
+#: src/sim.py:176
+#, python-brace-format
+msgid "CSV edges enriched saved at: {csv_epe}"
+msgstr ""
+
+#: src/sim.py:190
+#, python-brace-format
+msgid "JSON edges saved at: {json_path}"
+msgstr ""
+
+#: src/sim.py:197
+#, python-brace-format
+msgid ""
+"{lang}: - SIMULATION SUMARY\n"
+"FINAL ANALISIS\n"
+"Executed steps: {len_lds}\n"
+"Average vehicles (per step): {mean_lds_vehicles:.2f}\n"
+"Mean speed (m/s): {mean_lds_speed:.2f}\n"
+"Top edges per congestion_score:\n"
+"\n"
+msgstr ""
+
+#: src/sim.py:240
+msgid "Recomendations (heuristics):"
+msgstr ""
+
+#: src/sim.py:246
+msgid "Automatic tips were not generated"
+msgstr ""
+
+#: src/sim.py:252
+msgid ""
+"\n"
+"=== POST-SIMULATION ANALISIS ==="
+msgstr ""
+
+#: src/sim.py:278
+#, python-brace-format
+msgid ""
+"Vehicles with final register: {n_veh_final}\n"
+"Mean wait: {mean_wait:.2f}s |Median wait: {median_wait:.2f}s |Standard wait: "
+"{std_wait:.2f} |90pct: {pct90_wait:.2f}s"
+msgstr ""
+
+#: src/sim.py:294
+msgid "Top 10 edges per congestion_score:"
+msgstr ""
+
+#: src/sim.py:313
+msgid "Generating heatmap and exporting PNG/CSV/JSON..."
+msgstr ""
+
+#: src/sim.py:359
+msgid "Invalid netfile coordinates to generate the heatmap."
+msgstr ""
+
+#: src/sim.py:379
+#, python-brace-format
+msgid "({lan}) Relative level of load (normalized)"
+msgstr ""
+
+#: src/sim.py:383
+msgid "Load heatmap (center of edges)"
+msgstr ""
+
+#: src/sim.py:386
+msgid "X network coordinates"
+msgstr ""
+
+#: src/sim.py:389
+msgid "Y network coordinates"
+msgstr ""
+
+#: src/sim.py:395
+#, python-brace-format
+msgid "Heatmap saved at: {heatmap_png_path}"
+msgstr ""
+
+#: src/sim.py:465
+#, python-brace-format
+msgid ""
+"Progress: step {step}/{steps_amnt} - Vehicles: {n} - Average speed: "
+"{v_prom:.2f} m/s"
+msgstr ""
+
+#: src/sim.py:486
+#, python-brace-format
+msgid ""
+"Traffic lights detected in the network: {len_tls_info} (ex: {tls_detected})"
+msgstr ""
+
+#: src/sim.py:496
+msgid ""
+"No traffic lights detected in the network, or netfile does not contain "
+"accesible TLS"
+msgstr ""
+
+#: src/sim.py:519
+#, python-brace-format
+msgid "{sumo_binary} is not properly installed"
+msgstr ""
+
+#: src/sim.py:568
+#, python-brace-format
+msgid "Start SUMO ({sumo_binary}) with {src_path}"
+msgstr ""
+
+#: src/sim.py:604
+msgid "Analysis finished."
+msgstr ""
+
+#: src/tmethods.py:60 src/tmethods.py:368 src/tmethods.py:472
+#: src/tmethods.py:480 src/tmethods.py:529
+msgid "Error"
+msgstr ""
+
+#: src/tmethods.py:61
+#, python-brace-format
+msgid "Not found {wizard_path}"
+msgstr ""
+
+#: src/tmethods.py:70
+msgid "Info"
+msgstr ""
+
+#: src/tmethods.py:71
+msgid "OSM Web Wizard is already open"
+msgstr ""
+
+#: src/tmethods.py:93
+#, python-brace-format
+msgid "OSM Web Wizard open. The maps will be saved at: {maps_dir}"
+msgstr ""
+
+#: src/tmethods.py:98
+msgid "Press \"Generate Scenario\" in the wizard to create the map"
+msgstr ""
+
+#: src/tmethods.py:122
+msgid ""
+"WARNING: Couldn't connect with Overpass (OSM);the wizard might fail while "
+"downloading data"
+msgstr ""
+
+#: src/tmethods.py:131
+#, python-brace-format
+msgid "[wizard] {linestr}"
+msgstr ""
+
+#: src/tmethods.py:144
+#, python-brace-format
+msgid "The wizard ended (code {code}) without generating any .sumocfg"
+msgstr ""
+
+#: src/tmethods.py:154
+#, python-brace-format
+msgid "Map generated: {cfg}"
+msgstr ""
+
+#: src/tmethods.py:173
+msgid "Choose only one simluation file"
+msgstr ""
+
+#: src/tmethods.py:196 src/tmethods.py:200 src/tmethods.py:348
+msgid "Active vehicles"
+msgstr ""
+
+#: src/tmethods.py:199 src/tmethods.py:355 src/tmethods.py:396
+msgid "Step"
+msgstr ""
+
+#: src/tmethods.py:206
+msgid "Average wait (s)"
+msgstr ""
+
+#: src/tmethods.py:211
+msgid "Mean wait (s)"
+msgstr ""
+
+#: src/tmethods.py:214
+#, python-brace-format
+msgid "Evolution Vehieles vs wait - {sim_name}"
+msgstr ""
+
+#: src/tmethods.py:228
+msgid "Time of wait distribution per vehicle (final)"
+msgstr ""
+
+#: src/tmethods.py:231
+msgid "Time wait (s)"
+msgstr ""
+
+#: src/tmethods.py:232
+msgid "Amount of vehicles"
+msgstr ""
+
+#: src/tmethods.py:246
+msgid "Top 10 edges per congestion_score"
+msgstr ""
+
+#: src/tmethods.py:249
+msgid "congestion_score"
+msgstr ""
+
+#: src/tmethods.py:261
+#, python-brace-format
+msgid "Starting .sumocfg analysis: {src_path}"
+msgstr ""
+
+#: src/tmethods.py:291
+#, python-brace-format
+msgid "Map analysis finished. CSV edges: {csv_edges}"
+msgstr ""
+
+#: src/tmethods.py:298
+msgid "Top 10 edges per length"
+msgstr ""
+
+#: src/tmethods.py:299
+msgid "Length (m)"
+msgstr ""
+
+#: src/tmethods.py:342 src/tmethods.py:397
+msgid "Average speed (m/s)"
+msgstr ""
+
+#: src/tmethods.py:351
+#, python-brace-format
+msgid "Simulation loaded: {base}"
+msgstr ""
+
+#: src/tmethods.py:370
+msgid "Select at least two CSV files to compare"
+msgstr ""
+
+#: src/tmethods.py:385 src/tmethods.py:409
+msgid "Warning"
+msgstr ""
+
+#: src/tmethods.py:387
+#, python-brace-format
+msgid "{file} file does't contain the columns(Step/Average_speed)"
+msgstr ""
+
+#: src/tmethods.py:393
+msgid "Comparison between simulations (Average speed)"
+msgstr ""
+
+#: src/tmethods.py:411
+msgid "No previous results loaded. Run simulation first."
+msgstr ""
+
+#: src/tmethods.py:420
+#, python-brace-format
+msgid ""
+"\n"
+"Evaluation (Last results):\n"
+"Traffic classificatoin: {traffic_class}\n"
+"Total steps: {len_lds}\n"
+"Top 5 problematic edges:\n"
+msgstr ""
+
+#: src/tmethods.py:462
+msgid "Varibles captured:"
+msgstr ""
+
+#: src/tmethods.py:473
+msgid "No .sumocfg file selected"
+msgstr ""
+
+#: src/tmethods.py:481
+msgid "No simulation name set"
+msgstr ""
+
+#: src/tmethods.py:491
+msgid "Files defined:"
+msgstr ""
+
+#: src/tmethods.py:502
+msgid "Select a File"
+msgstr ""
+
+#: src/tmethods.py:505
+msgid "Files selected:"
+msgstr ""
+
+#: src/tmethods.py:512
+msgid "Save as"
+msgstr ""
+
+#: src/tmethods.py:523
+#, python-brace-format
+msgid "{file_path} saved"
+msgstr ""
+
+#: src/tmethods.py:530
+#, python-brace-format
+msgid "Error saving file: {ex}"
+msgstr ""
+
+#: src/tmethods.py:542
+#, python-brace-format
+msgid ""
+"\n"
+"---- TRACEBACK ----\n"
+"{tr}\n"
+"---- EXCEPTION ----\n"
+"{ex_str}"
+msgstr ""
